@@ -6,7 +6,7 @@ public class IOS implements OperatingSystem {
 
     @Override
     public void specs() {
-        System.out.println("Mosy secured OS");
+        System.out.println("Most secured OS");
     }
     
 }
