@@ -9,7 +9,7 @@ public class OperatingSystemFactory {
         public OperatingSystem getOS(String str) {
                 switch (str) {
                     case "Open" : return new Android(); 
-                    case "Closed" : return new IOS(10); 
+                    case "Closed" : return new IOS(); 
                     default : return new Windows(); 
                 }
         }
